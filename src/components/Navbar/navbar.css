@@ -1,0 +1,61 @@
+.container_nav{
+    background-color: var(--color-navbar);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.top_nav{
+    margin: 0;
+    padding:15px;
+    text-align: center;
+    justify-content: center;
+}
+a{
+    font-family: var(--font-title);
+    text-decoration:none;
+    padding: 10px;
+    margin: 5px;
+    font-size: inherit;/*Sirve para eliminar las caracteristicas iniciales de una clase especifica*/
+    color:white;
+    background-image: linear-gradient(to right, var(--color-desenfoque) 50% ,black 50%);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    transition: background-position 0.5s ease;
+    border-radius: 5px;
+        
+}
+a:hover{
+     background-position: 0 0;
+}
+
+h1{
+    font-family: var(--font-title);
+    font-size:2em;
+    margin:0;
+    font-size: inherit;/*Sirve para eliminar las caracteristicas iniciales de una clase especifica*/
+    color: var(--color-texto);
+    text-shadow: 5px 5px 5px  var(--color-desenfoque);
+    text-align: center;
+}
+
+
+/*Media query en 479px  para eliminar la lista de aboutme, projects.... y poner el icono de mobile de esa lista*/
+
+@media only screen and (max-width: 479px) {
+    a{
+        display:none;
+    }
+    .icon{
+        display:inline-block;
+        color:white;
+        margin: 10px;
+    }
+    img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+}

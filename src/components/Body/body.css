@@ -1,0 +1,61 @@
+.div_divisible_3_body{
+    width:100%;
+    height:65vh;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.titulo_body{
+    margin-top: 2vh;
+    color: black;
+    text-shadow: none;
+    font-size: 30px;
+}
+
+.titulo_modify{
+    margin-top: 100px;
+}
+
+
+
+h2{
+    font-family: var(--font-title);
+    margin-top: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3{
+    text-align: center;
+}
+.tarjetas_to_do{
+    justify-content:center;
+    background-color: #F9F8F8;
+    max-height: 450px;
+    max-width: 250px;
+    margin-top: 5vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.imagen_tarjeta{
+    max-width: 40vw;
+    max-height: 10vh;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.subtitle_card{
+    font-weight: normal;
+}
+ul {
+    list-style:circle;
+    text-align: justify;
+}
